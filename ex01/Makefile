@@ -5,7 +5,8 @@ CFLAGS			:= $(MANDATORY_FLAGS)
 
 SRCS			:= \
 					main.cpp \
-					ClapTrap.cpp
+					ClapTrap.cpp \
+					ScavTrap.cpp
 
 BUILD_DIR		:= build
 OBJS			:= $(SRCS:%.cpp=$(BUILD_DIR)/%.o)
