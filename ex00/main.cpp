@@ -23,7 +23,7 @@ int main(void) {
   c.attack("another random stranger");
 
   ClapTrap d = c;
-  c.attack("a random stranger");
+  d.attack("a random stranger");
 
   ClapTrap e("");
 }
