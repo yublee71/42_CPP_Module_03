@@ -27,7 +27,7 @@ ScavTrap::~ScavTrap() {
 }
 
 ScavTrap &ScavTrap::operator=(const ScavTrap &other) {
-  std::cout << "[ScavTrap] Copy assignment operator called" << std::endl;
+  std::cout << "[ScavTrap] Copy assignment operator called." << std::endl;
   if (this != &other) {
     this->name_ = other.name_;
     this->hit_points_ = other.hit_points_;
