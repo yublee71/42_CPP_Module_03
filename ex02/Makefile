@@ -6,6 +6,7 @@ CFLAGS			:= $(MANDATORY_FLAGS)
 SRCS			:= \
 					main.cpp \
 					ClapTrap.cpp \
+					ScavTrap.cpp \
 					FragTrap.cpp
 
 BUILD_DIR		:= build
