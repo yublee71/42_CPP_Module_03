@@ -7,7 +7,8 @@ SRCS			:= \
 					main.cpp \
 					ClapTrap.cpp \
 					ScavTrap.cpp \
-					FragTrap.cpp
+					FragTrap.cpp \
+					DiamondTrap.cpp
 
 BUILD_DIR		:= build
 OBJS			:= $(SRCS:%.cpp=$(BUILD_DIR)/%.o)
